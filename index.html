@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&family=Lobster&family=Manrope&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memes App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="col">
+                <h1>Настройки</h1>
+                <p>Мем</p>
+                <div class="section-selector">
+                    <select class="selector-mems" id="selector-mems">
+                        <option value="" disabled selected>Выберите мем</option>
+                    </select>
+                    <img class="selector-vector" src="selector-vector.png" alt="">
+                </div>
+                <p>Текст сверху</p>
+                <input class="text-top-input" type="text">
+                <p>Текст снизу</p>
+                <input class="text-bottom-input" type="text">
+            </div>
+            <div class="col">
+                <h1>Превью</h1>
+                <div class="img-and-text">
+                    <div class="img-tut"></div>
+                    <div class="textTop-on-img"></div>
+                    <div class="textBottom-on-img"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+body{
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.container {
+    background-color: gray;
+    padding-top: 105px;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0%;
+    margin-bottom: 42px;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0%;
+    margin-bottom: 13px;
+}
+.content{
+    margin: 0 auto;
+    display: flex;
+    width: 1180px;
+    justify-content: space-between;
+    
+}
+.selector-mems{
+    appearance: none;
+    width: 393px;
+    height: 54px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    padding-left: 21px;
+    padding-right: 12px;
+
+    margin-bottom: 42px;
+}
+.section-selector{
+    position: relative;
+}
+.selector-vector{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.text-top-input,
+.text-bottom-input {
+    width: 393px;
+    height: 54px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-bottom: 54px;
+    text-align: center;
+
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+
+}
+
+.img-mem{
+    width: 568px;
+    border-radius: 15px;
+}
+.img-and-text,
+.img-tut{
+    position: relative;
+}
+.text-top{
+    text-align: center;
+    width: 568px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+}
+
+.text-bottom{
+    text-align: center;
+    width: 568px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+}
+
+@media (max-width: 1190px){
+    .container{
+        padding: 20px;
+    }
+.content{
+    display: block;
+    width: 100%;
+}
+h1{
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.selector-mems,
+.text-top-input,
+.text-bottom-input{
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.selector-mems{
+    background-position-x: 0;
+}
+.img-mem{
+    width: 100%;
+}
+.text-top,
+.text-bottom{
+    left: 50%;
+    transform: translate(-50%);
+}
+.selector-vector{
+    top: 5px;
+    right: 10px;
+}
+
+
+}
